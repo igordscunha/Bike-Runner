@@ -1,6 +1,6 @@
 # Bike Runner by Igor Cunha
 
-Responsive website of a fictional bike shop.
+React website of a fictional bike shop.
 
 ## ReactJS and TypeScript.
 
