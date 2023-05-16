@@ -1,0 +1,12 @@
+@import 'styles/breakpoints';
+
+.itens {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 40px;
+  width: 100%;
+  @media screen and (max-width: $mobile){
+    padding: 0px;
+  }
+}

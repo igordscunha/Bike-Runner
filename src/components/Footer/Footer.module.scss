@@ -1,0 +1,15 @@
+@import "styles/variaveis";
+@import "styles/breakpoints";
+
+.footer {
+  background-color: $green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 10px;
+  &__texto{
+    font-weight: 500;
+    font-size: 1.3rem;
+  }
+}

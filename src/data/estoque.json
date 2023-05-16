@@ -1,0 +1,119 @@
+[
+  {
+    "title": "Bike Runner Branca",
+    "description": "Bicicleta ideal para você dar um passeio pela cidade!",
+    "photo": "/assets/bikes/17_1.png",
+    "size": 17,
+    "serving": "Adulto",
+    "price": 1499.0,
+    "id": 1,
+    "category": {
+      "id": 1,
+      "label": "Manual"
+    }
+  },
+  {
+    "title": "Bike Runner Azul",
+    "description": "Com um design diferente, essa bicicleta junta conforto e estilo.",
+    "photo": "/assets/bikes/18_1.png",
+    "size": 18,
+    "serving": "Adulto",
+    "price": 1599.0,
+    "id": 2,
+    "category": {
+      "id": 2,
+      "label": "18 Marchas"
+    }
+  },
+  {
+    "title": "Bike Runner Speedy",
+    "description": "Bicicleta para nível intermediário ou superior. Se você curte velocidade, essa pode ser a sua escolha!",
+    "photo": "/assets/bikes/19_1.png",
+    "size": 19,
+    "serving": "Adulto",
+    "price": 1899.0,
+    "id": 3,
+    "category": {
+      "id": 3,
+      "label": "21 Marchas"
+    }
+  },
+  {
+    "title": "Bike Runner Electric Family",
+    "description": "Bicicleta elétrica perfeita para um passeio em família. Contém cestinha e banco traseiro.",
+    "photo": "/assets/bikes/eletrica_1.png",
+    "size": 16,
+    "serving": "Adulto",
+    "price": 2099.0,
+    "id": 4,
+    "category": {
+      "id": 4,
+      "label": "Elétrica"
+    }
+  },
+  {
+    "title": "Bike Runner Lil Dino",
+    "description": "A diversão do seu filho(a) estará completa com essa super bicicleta resistente! Atenção: Rodinhas laterais inclusas!",
+    "photo": "/assets/bikes/infantil.png",
+    "size": 12,
+    "serving": "Infantil",
+    "price": 699.0,
+    "id": 5,
+    "category": {
+      "id": 5,
+      "label": "Manual"
+    }
+  },
+  {
+    "title": "Bike Runner Cult Clean",
+    "description": "Se você procura uma bicicleta simples, confortável e estéticamente bonita, você acabou de achar!",
+    "photo": "/assets/bikes/17_2.png",
+    "size": 17,
+    "serving": "Adulto",
+    "price": 1299.0,
+    "id": 6,
+    "category": {
+      "id": 1,
+      "label": "18 Marchas"
+    }
+  },
+  {
+    "title": "Bike Runner Rock Rolling",
+    "description": "Bicicleta com um dos melhores amortecedores do mercado. Atende perfeitamente aos problemas urbanos.",
+    "photo": "/assets/bikes/18_2.png",
+    "size": 18,
+    "serving": "Adulto",
+    "price": 1499.0,
+    "id": 7,
+    "category": {
+      "id": 2,
+      "label": "30 Marchas"
+    }
+  },
+  {
+    "title": "Bike Runner Pink Aluminum",
+    "description": "Bicicleta que junta praticidade com um lindo design.",
+    "photo": "/assets/bikes/19_2.png",
+    "size": 19,
+    "serving": "Adulto",
+    "price": 1799.0,
+    "id": 8,
+    "category": {
+      "id": 3,
+      "label": "24 Marchas"
+    }
+  },
+  {
+    "title": "Bike Runner Electric Family Deluxe",
+    "description": "Essa bicicleta elétrica é hoje considerada a mais top do mercado. Junta todos os benefícios de uma bicicleta normal e uma elétrica.",
+    "photo": "/assets/bikes/eletrica_2.png",
+    "size": 16,
+    "serving": "Adulto",
+    "price": 2399.0,
+    "id": 9,
+    "category": {
+      "id": 4,
+      "label": "Elétrica"
+    }
+  }
+]

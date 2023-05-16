@@ -1,0 +1,67 @@
+@import 'styles/variaveis';
+@import 'styles/breakpoints';
+
+.voltar {
+  background-color: transparent;
+  border: none;
+  color: $green;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: bold;
+  @media screen and (max-width: $mobile){
+    padding: 35px;
+  }
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  @media screen and (max-width: $mobile){
+    padding: 50px;
+  }
+  &__botao{
+    padding: 18px 14px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    background-color: $green;
+    border-radius: 5px;
+    color: $light-grey;
+    &:hover{
+      background-color: #547a1b;
+    }
+  }
+}
+
+.titulo {
+  font-size: 3rem;
+}
+
+.imagem {
+  width: 600px;
+  img {
+    border-radius: 8px;
+    width: 100%;
+  }
+  @media screen and (max-width: $mobile){
+    width: 120%;
+  }
+}
+
+.conteudo {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  &__descricao {
+    color: $darkest-grey;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  &____detalhes {
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,51 @@
+@import "styles/variaveis";
+@import "styles/breakpoints";
+
+.menu {
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+  @media screen and (max-width: $mobile){
+    display: flex;
+    justify-content: center;
+  }
+  &__logo {
+    @media screen and (max-width: $mobile){
+      display: none;
+    }
+  }
+  &__list {
+    align-items: center;
+    display: flex;
+    @media screen and (max-width: $mobile){
+      font-size: 0.5rem;
+      width: 100%;
+      justify-content: flex-start;
+      gap: 3px;
+    }
+  }
+  &__link {
+    list-style-type: none;
+    padding: 0 20px;
+    @media screen and (max-width: $mobile){
+      display: flex;
+      justify-content: flex-start;
+    }
+    a {
+      color: $dark;
+      cursor: pointer;
+      font-size: 24px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: .2s ease;
+      &:hover {
+        color: $dark-grey;
+      }
+      @media screen and (max-width: $mobile){
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+}

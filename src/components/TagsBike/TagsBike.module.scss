@@ -1,0 +1,64 @@
+@import "styles/variaveis";
+@import "styles/breakpoints";
+
+$vermelho: #d73b3b;
+$cinza: #30201e;
+$amarelo: #e6c864;
+$verde: #80aa40;
+$azul: #6293de;
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  max-width: 700px;
+  @media (max-width: $desktop_xsm) {
+    justify-content: flex-end;
+  }
+  @media (max-width: $mobile) {
+    justify-content: flex-start;
+  }
+  > div {
+    margin: 10px;
+  }
+  &__tipo {
+    align-items: center;
+    border-radius: 2px;
+    display: flex;
+    font-weight: bold;
+    height: 40px;
+    justify-content: center;
+    padding: 10px 30px;
+    &__aro17 {
+      background-color: $amarelo;
+      color: white;
+    }
+    &__aro18 {
+      background-color: $vermelho;
+      color: white;
+    }
+    &__aro19 {
+      background-color: $cinza;
+    }
+    &__eletrica {
+      background-color: $verde;
+    }
+    &__infantil {
+      background-color: $azul;
+    }
+  }
+  &__aro,
+  &__pessoa,
+  &__valor {
+    align-items: center;
+    display: flex;
+    font-size: 1.25rem;
+    font-weight: bold;
+    justify-content: center;
+  }
+  &__valor {
+    color: $red;
+    font-size: 1.7rem;
+  }
+}
